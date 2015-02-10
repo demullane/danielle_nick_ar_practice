@@ -1,5 +1,6 @@
 class Company < ActiveRecord::Base
 
-  has_many :locations, :products
+  has_many :locations
+  has_many :products
 
 end
